@@ -14,8 +14,8 @@ from rasa_sdk.executor import CollectingDispatcher
 
 import alpaca_trade_api as tradeapi
 
-API_KEY = 'PKPZJXLW8LNACU96WBIJ'
-SECRET_TOKEN = 'Qc76gZPxs5F5qwIDIzWe3c8kmMJAmDhsPBJItKMe'
+API_KEY = 'PK7DTKW8A9OODSEWY9XN'
+SECRET_TOKEN = 'LKmYgNavbdrKZqOMEtv4vge6rHbjkwGvNgp5NsGv'
 BASE_URL = 'https://paper-api.alpaca.markets'
 
 api = tradeapi.REST(
@@ -37,7 +37,7 @@ class ActionPortfolio(Action):
         account = api.get_account()
 
         if account.trading_blocked:
-            message = "Your account is restricted ffrom trading."
+            message = "Your account is restricted from trading."
 
         else:
             mess = 'Your Trading account Number is: {}'.format(account.account_number)

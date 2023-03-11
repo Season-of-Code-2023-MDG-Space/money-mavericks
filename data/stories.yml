@@ -31,6 +31,8 @@ stories:
 
 - story: portfolio
   steps:
+  - intent: greet
+  - action: utter_greet
   - intent: portfolio
   - action: action_portfolio
   - action: utter_end_greet

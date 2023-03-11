@@ -92,12 +92,12 @@ nlu:
 
 - intent: portfolio
   examples: |
-    - I want to know portfolio details
+    - I want to know my portfolio details
     - portfolio details
     - portfolio
     - give information about my portfolio
-    - portfolio details please
-
+    - portfolio details
+    
 - intent: last_trans
   examples: |
     - I want the last few transaction details
