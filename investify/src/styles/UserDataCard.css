@@ -1,0 +1,81 @@
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.user-data-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  max-width: 600px;
+  width: 900px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.user-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 50px;
+  animation: bounce-in 1s;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  animation: slide-right 1s forwards;
+}
+
+.user-username {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.user-name {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.user-balance,
+.user-holdings,
+.user-profit,
+.user-loss {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
