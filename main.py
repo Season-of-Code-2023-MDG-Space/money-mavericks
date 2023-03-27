@@ -26,7 +26,8 @@ from transformers import T5ForConditionalGeneration, T5Tokenizer
 
 # for stock sentiment analysis:
 
-# import stocksentimentanalysis as ssa
+import stocksentimentanalysis as ssa
+
 
 #Alpaca API Credentials:
 api_key = "PKPB8010Q98JE7JHH0Z9"
@@ -364,7 +365,7 @@ def sentiment_analysis():
 
     ssa.StockSentiment(5,symbol)
 
-# sentiment_analysis()
+def stock_price_predictor()
 
 mappings = {
 
