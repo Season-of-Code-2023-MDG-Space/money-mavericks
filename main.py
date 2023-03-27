@@ -26,7 +26,7 @@ from transformers import T5ForConditionalGeneration, T5Tokenizer
 
 # for stock sentiment analysis:
 
-import stocksentimentanalysis as ssa
+# import stocksentimentanalysis as ssa
 
 #Alpaca API Credentials:
 api_key = "PKPB8010Q98JE7JHH0Z9"
@@ -379,7 +379,7 @@ mappings = {
 }
 
 
-assistant = GenericAssistant('intents.json', mappings, "Harshad_Mehta_bot")
+assistant = GenericAssistant('D:\chatbot_3\money-mavericks\intents.json', mappings, "D:\chatbot_3\money-mavericks\Harshad_Mehta_bot")
 
 #Commands for training and saving the bot model
 
