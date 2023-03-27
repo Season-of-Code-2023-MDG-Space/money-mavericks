@@ -1,0 +1,59 @@
+
+{"intents": [
+    {"tag": "greetings",
+        "patterns": ["Hey", "Hello", "What's up?", "Hi"],
+        "responses": ["Hello Sir, my name is Harshad Mehta. Your very own stock market advisor and helper."],
+        "context_set":""
+    },
+
+    {"tag": "Bye",
+        "patterns": ["Bye", "I gotta go", "Nice talking to you"],
+        "responses": ["Bye for this time but do remember, Harshad is always there for you"],
+        "context_set":""
+        
+    },
+
+    {"tag": "show_portfolio",
+        "patterns": ["Show me my portfolio", "Give me an overview of my current stock market holdings", "Provide me the data of my portfolio", "What is the current status of my portfolio?"],
+        "responses": [""],
+        "context_set":""
+        
+    },
+
+    {"tag": "last_trans_details",
+        "patterns": ["Show me my last transaction details", "Give me the details of my last few transactions", "Provide me the data of my trading history"],
+        "responses": [""],
+        "context_set":""
+        
+    },
+
+    {"tag": "stock_buy",
+        "patterns": ["I want to buy some stocks", "I'm interested in buying some stocks", "I wanna buy some stocks"],
+        "responses": [""],
+        "context_set":""
+        
+    },
+
+    {"tag": "stock_sell",
+        "patterns": ["I want to sell some stocks", "I'm interested in selling some stocks", "I wanna sell some stocks"],
+        "responses": [""],
+        "context_set":""
+        
+    },
+
+    {"tag": "stock_prices",
+        "patterns": ["I want details of some stocks", "I wanna know the current status of some stocks ", "I wanna to know some stock prices", "Show me some stock detail"],
+        "responses": [""],
+        "context_set":""
+        
+    },
+
+    {"tag": "stock_news",
+        "patterns": ["I want news articles related to a stock", "Provide some news article about a stock", "What are the news related to a stock"],
+        "responses": [""],
+        "context_set":""
+        
+    }
+]
+
+}
