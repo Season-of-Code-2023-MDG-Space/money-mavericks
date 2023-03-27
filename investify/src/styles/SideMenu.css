@@ -1,0 +1,88 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Add font family */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the side menu */
+  .side-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    color: #212529;
+    transition: all 0.3s ease-in-out;
+    z-index: 100;
+  }
+  
+  /* Style the top heading */
+  .top-heading h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  /* Style the menu items */
+  .menu-items h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .menu-items ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-items li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu-items li:hover {
+    background-color: #e2e6ea;
+    color: #007bff;
+  }
+  
+  /* Style the dropdown menu */
+  .dropdown {
+    display: none;
+  }
+  
+  .dropdown li {
+    margin-bottom: 5px;
+  }
+  
+  .menu-items li:hover .dropdown {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #e2e6ea;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+  /* Style the close button */
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #212529;
+    cursor: pointer;
+    transition: all 0.
+  }  
