@@ -9,13 +9,12 @@ import DetailsCard from './components/DetailsCard';
 import detailsData from './assets/data/data';
 import LoginPage from './components/login';
 import StockNameInputForm from './components/StockNameInputForm';
+import MultiLineChart from './LineGraph';
 import {
   BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
-
-
 
 function App() {
 
@@ -27,6 +26,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Overview />} />
         <Route path="/login" element={<LoginPage/>} />
+        <Route path="/Pricechart" element={<MultiLineChart />} />
         <Route path="/PricePredict" element={<StockNameInputForm/>} />
         <Route path="/ChatBot" element={<ChatBot/>} />
         <Route path="/MyAccount" element={<UserDataCard

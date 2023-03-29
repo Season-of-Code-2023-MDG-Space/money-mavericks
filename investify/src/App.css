@@ -12,7 +12,15 @@
     width: 1000px;
     justify-self: stretch;
   }
-  
+  .container3{
+    background-color: #f2f2f2;
+    height: 500px;
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 250px;
+    padding: 10px;
+    border-radius: 5px;
+  }
   .table-grid {
     display: flex;
     flex-wrap: wrap;
