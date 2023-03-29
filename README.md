@@ -64,9 +64,8 @@ The User Data cards maintain the user information and his transaction records
  
  ### Contributors 
  * [Yash Tanwar](https://github.com/corrosivelogic)
- * [Yogendra Pandey](https://github.com/McCartney2003) 
  * [Yatharth Mishra](https://github.com/yatharthm2003)
-
+ * [Yogendra Pandey](https://github.com/McCartney2003) 
 
 
 
