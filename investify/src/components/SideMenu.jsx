@@ -16,7 +16,7 @@ function SideMenu() {
         <br/>
         <h2>Stock & Data</h2>
         <ul>
-          <li><a href="/" >Overview</a></li>
+          <li><a href="/Overview" >Overview</a></li>
           <li><a href="/ChatBot">ChatBot</a></li>
           <li><a href="/PricePredict">Stock Price Predictor</a></li>
         </ul>
