@@ -24,8 +24,8 @@ function App() {
     <SideMenu />
     <Router>
       <Routes>
-        <Route path="/" element={<Overview />} />
-        <Route path="/login" element={<LoginPage/>} />
+        <Route path="/Overview" element={<Overview />} />
+        <Route path="/" element={<LoginPage/>} />
         <Route path="/Pricechart" element={<MultiLineChart />} />
         <Route path="/PricePredict" element={<StockNameInputForm/>} />
         <Route path="/ChatBot" element={<ChatBot/>} />

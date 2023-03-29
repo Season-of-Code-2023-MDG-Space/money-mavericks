@@ -13,9 +13,10 @@ const LoginPage = () => {
     setPassword(event.target.value);
   };
 
-  const handleSubmit = (event) => {
+  function handleSubmit (event) {
     event.preventDefault();
     // Handle form submission
+    window.location.href = '/Overview';
   };
 
   return (
