@@ -1,18 +1,23 @@
 import React, { useState } from 'react';
 import "../styles/StockNameInputForm.css"
+import axios from 'axios';
 
 const StockNameInputForm = () => {
-  const [stockName, setStockName] = useState('');
+  const [name, setStockName] = useState('');
 
   const handleInputChange = (event) => {
     setStockName(event.target.value);
   };
 
-  const handleSubmit = (event) => {
+  function handleSubmit(event) {
     event.preventDefault();
     // like fetch stock data from an API
-    console.log(`Submitting stock name: ${stockName}`);
-    setStockName(''); // clear the input field after submission
+    let formfield = new FormData()
+    formfield.append('name',name)
+    axios.post('http://127.0.0.1:8000/Stock_Name/',formfield)
+    console.log(`Submitting stock name: ${name}`);
+    // setStockName(''); // clear the input field after submission
+    window.location.href = '/Pricechart';
   };
 
   return (
@@ -22,7 +27,7 @@ const StockNameInputForm = () => {
       <label className='form-label'>
         Stock Name:
         <div className="form-input-wrapper">
-        <input className="form-input" type="text" value={stockName} onChange={handleInputChange} />
+        <input className="form-input" type="text" value={name} onChange={handleInputChange} />
         </div> 
       </label>
       <button className="form-button"type="submit">Submit</button>
