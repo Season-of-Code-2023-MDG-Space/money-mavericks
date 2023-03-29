@@ -50,6 +50,7 @@ The ChatBot uses NLP to usndersand user commands and performs functions for buy,
 #### 3. Stock Price Predictor
 
 <img width="50%" height="50%" alt="image" src="https://user-images.githubusercontent.com/99196803/228342188-dc78a3cb-a967-4f10-9d61-44a71275b4bf.png">
+<img width="50%" height="50%" alt="image" src="https://user-images.githubusercontent.com/99196803/228494401-781d46e5-5424-4d49-9739-6eb05d238a2f.png">
 
 The Stock Price Predictor feature inputs a Tickers and plots the graph for projected adjusted closing prize for the next 30 days 
 #### 4. User Profile
